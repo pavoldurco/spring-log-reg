@@ -20,7 +20,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         .withUser(users.username("palo").password("1111").roles("zamestnanec"))
         .withUser(users.username("riso").password("2222").roles("veduci"));
     }
-
+//kscdkmckwd
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
